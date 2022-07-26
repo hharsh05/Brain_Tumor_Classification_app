@@ -10,6 +10,7 @@ st.header("Brain Tumor MRI Classification Example")
 st.text("Upload a brain MRI Image for image classification as tumor or no-tumor")
 import keras
 from PIL import Image, ImageOps
+import tensorflow as tf
 import numpy as np
 from img_classification import teachable_machine_classification
 uploaded_file = st.file_uploader("Choose a brain MRI ...", type="jpg")
