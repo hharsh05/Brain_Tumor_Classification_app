@@ -7,7 +7,6 @@
 import streamlit as st
 import keras
 from PIL import Image, ImageOps
-import tensorflow as tf
 import numpy as np
 st.title("Image Classification with Google's Teachable Machine")
 st.header("Brain Tumor MRI Classification Example")
