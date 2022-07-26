@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 import streamlit as st
 import keras
 from PIL import Image, ImageOps
@@ -23,5 +22,4 @@ if uploaded_file is not None:
         st.write("The MRI scan has a brain tumor")
     else:
         st.write("The MRI scan is healthy")
- st.text("Made by Harshit Harsh")
-
+st.text("Made by Harshit Harsh")
