@@ -8,8 +8,8 @@ import streamlit as st
 import keras
 from PIL import Image, ImageOps
 import numpy as np
-st.title("Image Classification with Google's Teachable Machine")
-st.header("Brain Tumor MRI Classification Example")
+st.title("Brain Tumor detection app")
+st.header("Brain Tumor detection through MRI of Brain")
 st.text("Upload a brain MRI Image for image classification as tumor or no-tumor")
 from img_classification import teachable_machine_classification
 uploaded_file = st.file_uploader("Choose a brain MRI ...", type="jpg")
@@ -23,4 +23,5 @@ if uploaded_file is not None:
         st.write("The MRI scan has a brain tumor")
     else:
         st.write("The MRI scan is healthy")
+ st.text("Made by Harshit Harsh")
 
